@@ -45,4 +45,3 @@ jobs:
         run: python -m pip install pytest pytest-cov coverage
       - name: Run unit tests
         run: python -m pytest --cov-report xml --cov=. --junitxml=test_results.xml ./tests
-    
